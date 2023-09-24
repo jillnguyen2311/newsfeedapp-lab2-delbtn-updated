@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 5rem 10rem;
+}
+
+.huge-title {
+font-size: 50px;
+font-weight: bolder;
+font-family: Georgia;
+}
+
+.news-list {
+  list-style: none;
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.news-item {
+  border: 2px solid lightgray;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.news-image img {
+  width: 42rem;
+  height: 25rem;
+}
+
+.news-title a {
+  color: #333;
+  text-decoration-style:double;
+  font-size: 25px;
+}
+
+.news-title a:hover {
+  text-decoration: underline;
+}
+
+.news-author {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.news-description {
+  margin: 50px 70px 30px;
+  text-align: left;
+  text-indent: 30px;
+  line-height: 1.5rem;
+}
+
+.delete-button {
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 17px;
+  border: 3px solid black;
+}
